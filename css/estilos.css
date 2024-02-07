@@ -1,0 +1,49 @@
+/* > Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+  }
+
+  body {
+    height: 100vh;
+    background-color: #2B807B;
+    text-align: center;
+  }
+  /* centramos los elementos de forma vertical y horizontalmente */
+  .centrar-elementos {
+    display: flex; /*convierte los elementos del contenedor en flex item y podemos controlarlos con sus propiedades*/
+    justify-content: center;
+    align-items: center;
+  }
+  /* contenedor */
+  #contenedor{
+    height: 220px;
+    width: 450px;
+    background-color: white;
+    border: 5px solid black;
+    flex-wrap: wrap;
+    flex-direction: column; /*uno debajo de otro */
+  }
+  /* estilo del texto */
+  #color{
+    font-size: 70px;
+    font-weight: bold;
+  }
+  /* boton */
+  button{
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    background-color:  #008CBA;
+    margin: 15px;
+    padding: 10px 30px;
+    border: 3px solid gray;
+    user-select: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  button:hover{
+    background-color: #05455A;
+  }
